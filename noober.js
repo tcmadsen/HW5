@@ -121,7 +121,7 @@ let nooberXlButton = document.querySelector('#noober-xl-filter')
 nooberXlButton.addEventListener('click', async function(event){
   event.preventDefault()
   // console.log('Noober XL button was clicked')
-  
+  renderRides(json) 
   let emptyArray = []
 
 })
@@ -130,7 +130,7 @@ let nooberXButton = document.querySelector('#noober-x-filter')
 nooberXButton.addEventListener('click', async function(event){
   event.preventDefault()
   // console.log('noober X button was clicked')
- 
+  renderRides(json) 
   let emptyArray = []
 
 })
